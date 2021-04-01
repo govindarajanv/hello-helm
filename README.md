@@ -19,13 +19,15 @@ helm-charts
 - Show value </br> $ helm show values stable/mysql
 - Install a chart dry-run </br> $ helm install mysql stable/mysql --dry-run --debug
 - Status of a release </br> $ helm list
+- Status of releases incl uninstalled </br> $ helm list --all
 - Detailed status</br> $ helm status mysql
 - Get manifest of a release </br> $ helm get manifest mysql
 - Get notes </br> $ helm get notes mysql
 - Get all </br> $ helm get all mysql
 - upgrade a release </br> $ helm upgrade
 - rollback of a release </br> $ helm rollback
-- history of a release </br> $ helm history
+- Uninstall a release </br> $ helm uninstall mysql --keep-history
+- history of a release </br> $ helm history mysql
 - create a new chart with a default yaml </br> $ helm create
 - create an archive of chart for distribution </br> $ helm package
 
