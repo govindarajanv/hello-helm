@@ -27,9 +27,17 @@ helm-charts
 - Get notes </br> $ helm get notes mysql
 - Get all </br> $ helm get all mysql
 - upgrade a release </br> $ helm upgrade mysql stable/mysql --version=1.6.9
-- rollback of a release </br> $ helm rollback
+- rollback of a release </br> $ helm rollback mysql 1
 - Uninstall a release </br> $ helm uninstall mysql --keep-history
 - history of a release </br> $ helm history mysql
+- Pull down a chart </br> $ helm pull stable/mysql --untar
+```
+chart
+  |______________________chart.yml  -   description and metadata about the chart
+  |______________________values.yml -   default values of the chart
+  |______________________charts/    -   dependent charts
+  |______________________templates/ -   contains yaml files for the chart
+```
 - create a new chart with a default yaml </br> $ helm create
 - create an archive of chart for distribution </br> $ helm package
 
