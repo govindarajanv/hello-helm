@@ -13,7 +13,7 @@ helm-charts
 - version </br> $ helm version
 - Add a repo </br> $ helm repo add stable https://charts.helm.sh/stable
 - list repos </br> $ helm repo list
-- Search a repo </br> $ helm search repo stable/mysql
+- Search a repo </br> $ helm search repo stable/mysql </br> helm search repo stable/mysql --versions
 - Show chart </br> $ helm show chart stable/mysql
 - Show chart README </br> $ helm show readme stable/mysql
 - Show value </br> $ helm show values stable/mysql
