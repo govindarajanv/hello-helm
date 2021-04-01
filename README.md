@@ -21,6 +21,8 @@ helm-charts
 - Status of a release </br> $ helm list
 - Detailed status</br> $ helm status mysql
 - Get manifest of a release </br> $ helm get manifest mysql
+- Get notes </br> $ helm get notes mysql
+- Get all </br> $ helm get all mysql
 - upgrade a release </br> $ helm upgrade
 - rollback of a release </br> $ helm rollback
 - history of a release </br> $ helm history
