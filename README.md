@@ -20,6 +20,7 @@ helm-charts
 - Install a chart dry-run </br> $ helm install mysql stable/mysql --dry-run --debug
 - Status of a release </br> $ helm list
 - Detailed status</br> $ helm status mysql
+- Get manifest of a release </br> $ helm get manifest mysql
 - upgrade a release </br> $ helm upgrade
 - rollback of a release </br> $ helm rollback
 - history of a release </br> $ helm history
