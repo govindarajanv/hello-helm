@@ -26,7 +26,7 @@ helm-charts
 - Get manifest of a release </br> $ helm get manifest mysql
 - Get notes </br> $ helm get notes mysql
 - Get all </br> $ helm get all mysql
-- upgrade a release </br> $ helm upgrade
+- upgrade a release </br> $ helm upgrade mysql stable/mysql --version=1.6.9
 - rollback of a release </br> $ helm rollback
 - Uninstall a release </br> $ helm uninstall mysql --keep-history
 - history of a release </br> $ helm history mysql
