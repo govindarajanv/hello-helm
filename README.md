@@ -37,6 +37,10 @@ chart
   |______________________values.yml -   default values of the chart
   |______________________charts/    -   dependent charts
   |______________________templates/ -   contains yaml files for the chart
+                            |________________________   -   deployment.yaml
+                            |________________________   -   service.yaml
+                            |________________________   -   _helper.tpl
+                            |________________________   -   NOTES.txt (help text for chart)
 ```
 - create a new chart with a default yaml </br> $ helm create
 - create an archive of chart for distribution </br> $ helm package
