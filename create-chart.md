@@ -29,4 +29,5 @@
 - [Chart Museum](https://chartmuseum.com/) is an open source helm repository and the same can be installed via helm </br> $ helm install chartmuseum stable/chartmuseum --set env.open.DISABLE_API=false
 - Set Chart Museum as local repo </br> $ helm repo add chartmuseum http://127.0.0.1:8080 
 - Publish my-chart to chart museum </br> $ curl --data-binary "@my-chart-0.1.0.tgz" http:/127.0.0.1:8080/api/charts
-
+- Update cache with the latest charts </br> $ helm repo update
+- search for our chart </br> $ helm search repo chartmuseum/my-chart
