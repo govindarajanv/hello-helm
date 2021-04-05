@@ -51,3 +51,4 @@ generated: ""
 ```
 - Get the raw path of index.yml </br> https://raw.githubusercontent.com/govindarajanv/helm-charts/master/index.yaml and remove index.yml from the end
 - Add the repository </br> $ helm repo add govindarajanv https://raw.githubusercontent.com/govindarajanv/helm-charts/master
+- Validate </br> $ helm repo list </br> $ helm search repo govindarajanv/my-chart
