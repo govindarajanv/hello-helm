@@ -50,3 +50,14 @@ It is like a dockerhub but for Helm charts
 [Helm Hub](https://hub.helm.sh)
 It is now available as 'https://artifacthub.io/'
 
+## Repository setup
+
+### Local
+- Chart Museum from helm chart
+
+### Remote
+- Nexus
+- JFrog
+- S3
+- Chart Museum
+- Github
