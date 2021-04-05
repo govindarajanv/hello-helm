@@ -26,3 +26,4 @@
 - Package the chart </br> $ helm package ./my-chart --destination /tmp
 - Check the release </br> $ helm list
 - Upgrade a release </br> $ helm upgrade my-chart ./my-chart --set containerImage=nginx:1.18
+- [Chart Museum](https://chartmuseum.com/) is an open source helm repository and the same can be installed via helm </br> $ helm install chartmuseum stable/chartmuseum --set env.open.DISABLE_API=false
